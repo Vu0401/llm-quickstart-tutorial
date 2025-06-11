@@ -4,18 +4,18 @@ from fastmcp import FastMCP
 mcp = FastMCP("Student Management")
 
 # Resource: Get student info by ID
-@mcp.resource("student://{student_id}") # GET
+@mcp.resource("student://{student_id}") # Same as GET in FastAPI
 def get_student_info(student_id: str) -> str:
     """Retrieve student information based on ID"""
     # Simulate student data
     students = {
-        "001": "Nguyen Van A, 15 years old, class 10A",
-        "002": "Tran Thi B, 16 years old, class 11B"
+        "001": "Peter, 15 years old, class 10A",
+        "002": "Alex, 16 years old, class 11B"
     }
     return students.get(student_id, "Student not found")
 
 # Tool: Calculate average score
-@mcp.tool() # POST
+@mcp.tool() # # Same as POST in FastAPI
 def calculate_average_score(scores: list[float]) -> float:
     """Calculate average score from a list of scores"""
     if not scores:
