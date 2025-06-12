@@ -9,8 +9,8 @@ def get_student_info(student_id: str) -> str:
     """Retrieve student information based on ID"""
     # Simulate student data
     students = {
-        "001": "Peter, 15 years old, class 10A",
-        "002": "Alex, 16 years old, class 11B"
+        "001": "Peter, 15 years old, class A",
+        "002": "Alex, 16 years old, class B"
     }
     return students.get(student_id, "Student not found")
 
