@@ -4,23 +4,13 @@ A curated collection of quickstart tutorials and hands-on examples for popular L
 
 ---
 
-## 📁 Directory Structure
-
-```bash
-src/
-├── openai_agents_sdkl/   # Quickstart for OpenAI Agents SDK (local-based)
-├── mem0/                 # Quickstart for the mem0 agent framework
-├── fast_mcp/             # Quickstart for the fast_mcp controller
-```
-
----
-
 ## Tutorials Overview
 | Name               | Folder                | Description                                             |
 | ------------------ | --------------------- | ------------------------------------------------------- |
-| OpenAI Agents SDKL | `openai_agents_sdkl/` | Run and customize agents with OpenAI's experimental SDK |
+| OpenAI Agents SDK  | `openai_agents_sdk/`  | Run and customize agents with OpenAI's experimental SDK |
 | Mem0               | `mem0/`               | Agent framework with memory modules and local flow      |
 | Fast MCP           | `fast_mcp/`           | Lightweight agent controller for fast deployment        |
+| Neo4j              | `neo4j/`              | Examples for integrating agents with a Neo4j graph DB   |
 
 ---
 
