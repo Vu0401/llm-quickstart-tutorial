@@ -7,12 +7,14 @@ A plug-and-play collection of quickstart tutorials for popular LLM tools and age
 
 ## 😎 Choose Your Weapon
 
-| Name               | Folder                                       | What's it about?                                         |
-|--------------------|----------------------------------------------|----------------------------------------------------------|
-| OpenAI Agents SDK  | [`src/openai_agents_sdk/`](src/openai_agents_sdk/) | OpenAI’s new SDK to spin up and wire agents easily       |
-| Mem0               | [`src/mem0/`](src/mem0/)                         | Memory-powered agents that learn over time       |
-| Fast MCP           | [`src/fast_mcp/`](src/fast_mcp/)                 | Minimal controller to manage and scale LLM agents fast   |
-| Neo4j              | [`src/neo4j/`](src/neo4j/)                       | Hook agents into graphs — Neo4j style                    |
+A quick overview of all available modules — click the folder to explore examples, or visit the upstream repo to learn more about the original project.
+
+| Module             | Quickstart Folder                                                    | Upstream Repo                                                |
+|--------------------|-----------------------------------------------------------------------|--------------------------------------------------------------|
+| **OpenAI Agents SDK**<br/>Spin up and wire agents using OpenAI's new experimental framework | [`src/openai_agents_sdk/`](src/openai_agents_sdk/)           | [OpenAI SDK](https://github.com/openai/openai-python/tree/main/openai/agents) |
+| **Mem0** 🚧<br/>Memory-first agents that learn and adapt over time                         | [`src/mem0/`](src/mem0/)                                     | [Mem0](https://github.com/mem0-ai/mem0)                     |
+| **Fast MCP**<br/>Minimal controller for managing multi-agent workflows                     | [`src/fast_mcp/`](src/fast_mcp/)                             | [Fast MCP](https://github.com/minerllabs/fast-mcp) (if public) |
+| **Neo4j**<br/>Integrate agents with graph databases using Neo4j                            | [`src/neo4j/`](src/neo4j/)                                   | [Neo4j](https://github.com/neo4j/neo4j-python-driver)       |
 
 ---
 
