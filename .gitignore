@@ -1,12 +1,76 @@
-# Python-generated files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
 # Virtual environments
-.python-version
-.venv
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Testing
+.pytest_cache/
+.tox/
+.nox/
+coverage.*
+htmlcov/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pyre / MyPy / Type checker
+.pyre/
+.mypy_cache/
+.dmypy.json
+
+# PEP 582; used by pdm
+__pypackages__/
+
+# Data, logs and temp
+*.log
+*.tmp
+*.bak
+*.orig
+
+# uv (if applicable)
+.uv/
+
+# Local project settings
+.python-version
+
+# OS-specific
+.DS_Store
+Thumbs.db
