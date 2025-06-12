@@ -5,12 +5,12 @@ A curated collection of quickstart tutorials and hands-on examples for popular L
 ---
 
 ## Tutorials Overview
-| Name               | Folder                | Description                                             |
-| ------------------ | --------------------- | ------------------------------------------------------- |
-| OpenAI Agents SDK  | `openai_agents_sdk/`  | Run and customize agents with OpenAI's experimental SDK |
-| Mem0               | `mem0/`               | Agent framework with memory modules and local flow      |
-| Fast MCP           | `fast_mcp/`           | Lightweight agent controller for fast deployment        |
-| Neo4j              | `neo4j/`              | Examples for integrating agents with a Neo4j graph DB   |
+| Name               | Folder                                       | Description                                              |
+|--------------------|----------------------------------------------|----------------------------------------------------------|
+| OpenAI Agents SDK  | [`src/openai_agents_sdk/`](src/openai_agents_sdk/) | Run and customize agents with OpenAI's experimental SDK  |
+| Mem0               | [`src/mem0/`](src/mem0/)                         | Agent framework with memory modules and local flow       |
+| Fast MCP           | [`src/fast_mcp/`](src/fast_mcp/)                 | Lightweight agent controller for fast deployment         |
+| Neo4j              | [`src/neo4j/`](src/neo4j/)                       | Examples for integrating agents with a Neo4j graph DB    |
 
 ---
 
