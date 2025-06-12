@@ -10,7 +10,7 @@ A plug-and-play collection of quickstart tutorials for popular LLM tools and age
 | Name               | Folder                                       | What's it about?                                         |
 |--------------------|----------------------------------------------|----------------------------------------------------------|
 | OpenAI Agents SDK  | [`src/openai_agents_sdk/`](src/openai_agents_sdk/) | OpenAI’s new SDK to spin up and wire agents easily       |
-| Mem0               | [`src/mem0/`](src/mem0/)                         | A memory-first agent framework for local workflows       |
+| Mem0               | [`src/mem0/`](src/mem0/)                         | Memory-powered agents that learn over time       |
 | Fast MCP           | [`src/fast_mcp/`](src/fast_mcp/)                 | Minimal controller to manage and scale LLM agents fast   |
 | Neo4j              | [`src/neo4j/`](src/neo4j/)                       | Hook agents into graphs — Neo4j style                    |
 
