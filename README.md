@@ -11,10 +11,10 @@ A quick overview of all available modules — click the folder to explore exampl
 
 | Module             | Quickstart Folder                                                    | Upstream Repo                                                |
 |--------------------|-----------------------------------------------------------------------|--------------------------------------------------------------|
-| **OpenAI Agents SDK**<br/>Spin up and wire agents using OpenAI's new experimental framework | [`src/openai_agents_sdk/`](src/openai_agents_sdk/)           | [OpenAI SDK](https://github.com/openai/openai-agents-python) |
-| **Mem0** <br/>Memory-powered agents that learn over time                         | [`src/mem0/`](src/mem0/)                                     | [Mem0](https://github.com/mem0ai/mem0)                     |
-| **Fast MCP**<br/>Minimal controller for managing multi-agent workflows                     | [`src/fast_mcp/`](src/fast_mcp/)                             | [Fast MCP](https://github.com/jlowin/fastmcp) |
-| **Neo4j**<br/>Integrate agents with graph databases using Neo4j                            | [`src/neo4j/`](src/neo4j/)                                   | [Neo4j](https://github.com/neo4j/neo4j-python-driver)       |
+| **OpenAI Agents SDK**<br/>Spin up and wire agents using OpenAI's new experimental framework | [`llm-quickstart-tutorial/openai_agents_sdk/`](llm-quickstart-tutorial/openai_agents_sdk/)           | [OpenAI SDK](https://github.com/openai/openai-agents-python) |
+| **Mem0** <br/>Memory-powered agents that learn over time                         | [`llm-quickstart-tutorial/mem0/`](llm-quickstart-tutorial/mem0/)                                     | [Mem0](https://github.com/mem0ai/mem0)                     |
+| **Fast MCP**<br/>Minimal controller for managing multi-agent workflows                     | [`llm-quickstart-tutorial/fast_mcp/`](llm-quickstart-tutorial/fast_mcp/)                             | [Fast MCP](https://github.com/jlowin/fastmcp) |
+| **Neo4j**<br/>Integrate agents with graph databases using Neo4j                            | [`llm-quickstart-tutorial/neo4j/`](llm-quickstart-tutorial/neo4j/)                                   | [Neo4j](https://github.com/neo4j/neo4j-python-driver)       |
 
 ---
 
