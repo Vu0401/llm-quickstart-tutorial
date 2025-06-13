@@ -74,3 +74,6 @@ __pypackages__/
 # OS-specific
 .DS_Store
 Thumbs.db
+
+# Database
+.db
