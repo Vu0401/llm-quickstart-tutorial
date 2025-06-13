@@ -36,7 +36,7 @@ Ingests conversations and stores them as memories using a streamlined process:
 - **Conflict Resolution**: Compares new data with existing memories, resolving contradictions.
 - **Memory Storage**: Stores memories in a vector database and tracks relationships in a graph database.
 
-![Adding Memories Diagram](../assets/mem0_adding_memories.png)
+![Adding Memories Diagram](../../assets/mem0_adding_memories.png)
 
 **Use case**: Persist user preferences or conversation context for personalized AI interactions.
 
@@ -47,7 +47,7 @@ Retrieves relevant memories based on queries with a multi-step semantic search:
 - **Vector Search**: Performs semantic search, ranking results by relevance.
 - **Result Processing**: Returns memories with relevance scores, metadata, and timestamps.
 
-![Searching Memories Diagram](../assets/mem0_searching_memories.png)
+![Searching Memories Diagram](../../assets/mem0_searching_memories.png)
 
 **Use case**: Fetch past interactions to deliver context-aware, personalized responses.
 
