@@ -6,9 +6,9 @@ from agents.run import RunConfig
 
 # --- Config ---
 
-load_dotenv()
 
 gemini_api_key = os.getenv("GEMINI_API_KEY")
+print(gemini_api_key)
 
 external_client = AsyncOpenAI(
     api_key=gemini_api_key,
