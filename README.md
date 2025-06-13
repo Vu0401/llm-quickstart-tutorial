@@ -33,7 +33,7 @@ cd llm-quickstart-tutorial
 
 # 3. Fire up your virtual environment and install stuff
 uv venv
-uv pip install -e .
+uv pip install -r pyproject.toml
 ```
 
 🧪 All dependencies are in pyproject.toml — no requirements.txt, no clutter.
