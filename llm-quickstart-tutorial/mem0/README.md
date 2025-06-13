@@ -4,7 +4,7 @@ Mem0 (pronounced “mem-zero”) transforms AI assistants with a robust, adaptiv
 
 Mem0 integrates large language models (LLMs) with vector-based storage for a powerful memory architecture. LLMs capture and process essential conversation details, while vector storage ensures rapid, semantic memory retrieval. This design bridges past and present interactions, delivering smarter, more responsive AI experiences.
 
-| 🧠 Adaptive Memory | Dynamic, persistent memory for AI: tracks conversations, user preferences, and enables semantic search |
+📢 **Research Breakthrough**: Mem0 achieves 26% higher accuracy than OpenAI Memory, 91% lower latency, and 90% token savings! [Read the paper](https://docs.mem0.ai/research).
 
 ---
 
@@ -26,8 +26,6 @@ Mem0 handles memory extraction, conflict resolution, and efficient retrieval, so
 ## Core Concepts
 
 Mem0 empowers AI with two key operations: **adding** and **searching** memories. These enable contextual, personalized interactions by storing and retrieving data efficiently.
-
-📢 **Research Breakthrough**: Mem0 achieves 26% higher accuracy than OpenAI Memory, 91% lower latency, and 90% token savings! [Read the paper](https://docs.mem0.ai/research).
 
 ### 🛠️ Memory Operations
 
