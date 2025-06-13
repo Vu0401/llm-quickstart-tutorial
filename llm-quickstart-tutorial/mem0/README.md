@@ -1,6 +1,10 @@
 # Mem0
 
-| 🗂️ Context & Memory | Persistent, contextual memory for AI: past chats, user history, semantic search |
+Mem0 (pronounced “mem-zero”) transforms AI assistants with a robust, adaptive memory system. By continuously learning from user interactions, Mem0 enables AI to provide tailored, context-rich responses that evolve over time.
+
+Mem0 integrates large language models (LLMs) with vector-based storage for a powerful memory architecture. LLMs capture and process essential conversation details, while vector storage ensures rapid, semantic memory retrieval. This design bridges past and present interactions, delivering smarter, more responsive AI experiences.
+
+| 🧠 Adaptive Memory | Dynamic, persistent memory for AI: tracks conversations, user preferences, and enables semantic search |
 
 ---
 
