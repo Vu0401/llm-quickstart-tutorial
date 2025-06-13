@@ -31,9 +31,14 @@ curl -Ls https://astral.sh/uv/install.sh | sh
 git clone https://github.com/Vu0401/llm-quickstart-tutorial.git
 cd llm-quickstart-tutorial
 
-# 3. Fire up your virtual environment and install stuff
+# 3. Create virtual environment, activate it, and install dependencies
 uv venv
+source .venv/bin/activate     # or .venv\Scripts\activate on Windows
 uv pip install -r pyproject.toml
+
+# 4. Setup your environment variables
+cp .env.example .env
+# Then open `.env` and fill in the required values
 ```
 
 🧪 All dependencies are in pyproject.toml — no requirements.txt, no clutter.
