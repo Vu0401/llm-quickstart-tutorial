@@ -27,7 +27,6 @@ parsing, reasoning, tool-calling, and orchestration. You just plug in logic.
 | `6_output_guardrails.py` | 🛡️ Output guardrails | Post-process or check the agent's response before returning      |
 | `7_context.py`           | 🗂️ Context & memory  | Feed in dynamic context: past chats, external info, user history |
 
-
 ---
 
 ## 🚀 Run a Script
