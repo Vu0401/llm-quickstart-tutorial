@@ -28,7 +28,7 @@ A quick overview of all available modules — click the folder to explore exampl
 curl -Ls https://astral.sh/uv/install.sh | sh
 
 # 2. Clone the repo
-git clone https://github.com/yourusername/llm-quickstart-tutorial.git
+git clone https://github.com/Vu0401/llm-quickstart-tutorial.git
 cd llm-quickstart-tutorial
 
 # 3. Fire up your virtual environment and install stuff
