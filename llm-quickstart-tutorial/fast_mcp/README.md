@@ -1,24 +1,24 @@
 # FastMCP
 
-FastMCP is the fast, Pythonic framework for building Model Context Protocol (MCP) servers and clients — the new standard for connecting LLMs to external tools, data, and logic.
+> **FastMCP** is a blazing-fast Python SDK to build **Model Context Protocol (MCP)** servers and clients.  
+It connects **LLMs to external tools, resources, and logic** — securely, modularly, and with minimal boilerplate.
 
-It transforms how language models interact with the world, enabling structured, secure, and extensible execution of tools, access to resources, and prompt-driven workflows. With clean Python code and minimal boilerplate, FastMCP empowers developers to turn simple functions into powerful AI capabilities.
+Whether you're building agents, APIs, or complex workflows — FastMCP makes it easy.
 
 ## 🚀 Core Concepts
 
 A high-level toolkit to build intelligent, interactive LLM backends — modular, scalable, and built for real-world usage.
 
-| Component    | Function                                                    | Think of it as...           |
-| ------------ | ----------------------------------------------------------- | --------------------------- |
-| 🧠 **Tools** | Execute code via LLMs                                       | POST endpoints for actions  |
-| 📡 **Resources** | Expose structured data to LLMs                         | GET endpoints for facts     |
-| 📝 **Prompts** | Define reusable LLM interaction templates                 | Prompt libraries            |
-| 🧭 **Context** | Access runtime state (logging, HTTP, LLM calls)          | Request/session context     |
-| 🔁 **Clients** | Connect to MCP servers programmatically                   | SDK for MCP integration     |
+| 🧩 Component     | Role                                                           | Analogy                  |
+|------------------|----------------------------------------------------------------|--------------------------|
+| 🧠 `@tool`        | Execute Python functions through LLM                          | POST endpoint (action)   |
+| 📡 `@resource`    | Provide read-only data to LLM                                 | GET endpoint (data)      |
+| 📝 `@prompt`      | Reusable LLM prompt templates                                 | Prompt library            |
+| 🧭 `ctx`          | Access runtime: logs, resource reads, callbacks               | Session context           |
+| 🔁 `Client`       | Bridge LLM ↔ tool/resource server via stdin / HTTP / memory   | Agent SDK integration     |
 
 FastMCP is built around composable building blocks that help LLMs perform tasks, retrieve data, and interact intelligently.
 
----
 
 ### 🧠 Tools
 
@@ -34,8 +34,6 @@ def calculate_average(scores: list[float]) -> float:
 - Auto-generates schemas from type hints
 - Perfect for: calculations, API calls, data processing
 
----
-
 ### 📡 Resources
 
 **Expose structured data sources**
@@ -50,8 +48,6 @@ def get_student(student_id: str) -> str:
 - Supports dynamic URIs with templates
 - Perfect for: user profiles, configs, documentation
 
----
-
 ### 📝 Prompts
 
 **Reusable interaction templates**
@@ -65,8 +61,6 @@ def analyze_performance(student_id: str, scores: list[float]) -> str:
 
 - Standardize common LLM interactions
 - Perfect for: summaries, rewrites, structured queries
-
----
 
 ### 🧭 Context
 
@@ -83,7 +77,6 @@ def advanced_analysis(ctx: Context, data: dict) -> str:
 - Enables: logging, HTTP requests, internal tool calls
 - Perfect for: multi-step workflows, complex reasoning chains
 
----
 
 ### 🔁 Clients
 
@@ -98,8 +91,6 @@ async with MCPServerStdio(params={"command": "python", "args": ["server.py"]}) a
 - Multiple transports: stdin, HTTP, in-memory
 - Perfect for: testing, integration, tool chaining
 
----
-
 ## What’s Inside?
 
 | File/Module             | Core Concept         | What It Demonstrates                                          |
@@ -107,25 +98,22 @@ async with MCPServerStdio(params={"command": "python", "args": ["server.py"]}) a
 | `student_management_server.py` | 🧠 Tools, Resources, ... | Core MCP tools (score calculation, analysis) and student data |
 | `main.py`               | 🔁 Client Usage      | How an LLM agent interacts with MCP via Gemini + MCP Server   |
 
----
 
 ## 🧪 How It Works
 
-1. Run the student_management MCP server locally using:
+**Step 1: Launch the MCP Server**
 
 ```bash
 uv run python src/fast_mcp_tutorial/student_management_server.py
 ```
 
-2. Launch main.py to connect the agent and test LLM-driven tool calls.
+**Step 2: Start the Agent**
 
 ```bash
 python main.py
 ```
 
-3. Watch the magic: Gemini automatically calls MCP tools like `calculate_average_score`.
-
----
+**Step 3: Watch the magic: Gemini automatically calls MCP tools like `calculate_average_score`.**
 
 ## 🤔 Want to go deeper?
 
