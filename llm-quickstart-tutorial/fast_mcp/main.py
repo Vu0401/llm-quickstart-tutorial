@@ -42,14 +42,25 @@ async def main():
 
         agent = Agent(
             name="Assistant",
-            instructions="You are a helpful assistant and always use mcp tools to achieve the task", 
+            instructions="You are a helpful assistant and always use MCP tools and prompts when possible.",
             model_settings=model_settings,
-            mcp_servers = [server]
-            )
+            mcp_servers=[server]
+        )
 
-        result = await Runner.run(agent, "Calculate average of [1, 2, 3]", run_config=config)
+        queries = [
+            "Get student info for ID 001",
+            "Calculate average score of [6.5, 7.0, 8.0]",
+            "Analyze student 002 with scores [4.0, 5.5, 6.0]",
+            "Use prompt to analyze student 001 with scores [9.0, 7.5, 8.5]"
+        ]
 
-        print(result.final_output)
-        
+        for query in queries:
+            print("=" * 50)
+            print(f"🔍 Prompt: {query}")
+            result = await Runner.run(agent, query, run_config=config)
+            print("🧠 Output:")
+            print(result.final_output)
+            print("=" * 50 + "\n")
+
 if __name__ == "__main__":
     asyncio.run(main())
