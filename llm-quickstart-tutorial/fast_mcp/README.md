@@ -16,11 +16,9 @@ A high-level toolkit to build intelligent, interactive LLM backends — modular,
 | 🧭 **Context** | Access runtime state (logging, HTTP, LLM calls)          | Request/session context     |
 | 🔁 **Clients** | Connect to MCP servers programmatically                   | SDK for MCP integration     |
 
-FastMCP handles protocol plumbing — you focus on defining what your LLMs can do and know.
-
-
-
 FastMCP is built around composable building blocks that help LLMs perform tasks, retrieve data, and interact intelligently.
+
+---
 
 ### 🧠 Tools
 
@@ -36,6 +34,8 @@ def calculate_average(scores: list[float]) -> float:
 - Auto-generates schemas from type hints
 - Perfect for: calculations, API calls, data processing
 
+---
+
 ### 📡 Resources
 
 **Expose structured data sources**
@@ -50,6 +50,8 @@ def get_student(student_id: str) -> str:
 - Supports dynamic URIs with templates
 - Perfect for: user profiles, configs, documentation
 
+---
+
 ### 📝 Prompts
 
 **Reusable interaction templates**
@@ -63,6 +65,8 @@ def analyze_performance(student_id: str, scores: list[float]) -> str:
 
 - Standardize common LLM interactions
 - Perfect for: summaries, rewrites, structured queries
+
+---
 
 ### 🧭 Context
 
@@ -79,6 +83,7 @@ def advanced_analysis(ctx: Context, data: dict) -> str:
 - Enables: logging, HTTP requests, internal tool calls
 - Perfect for: multi-step workflows, complex reasoning chains
 
+---
 
 ### 🔁 Clients
 
@@ -93,6 +98,8 @@ async with MCPServerStdio(params={"command": "python", "args": ["server.py"]}) a
 - Multiple transports: stdin, HTTP, in-memory
 - Perfect for: testing, integration, tool chaining
 
+---
+
 ## What’s Inside?
 
 | File/Module             | Core Concept         | What It Demonstrates                                          |
@@ -100,6 +107,7 @@ async with MCPServerStdio(params={"command": "python", "args": ["server.py"]}) a
 | `student_management_server.py` | 🧠 Tools, Resources, ... | Core MCP tools (score calculation, analysis) and student data |
 | `main.py`               | 🔁 Client Usage      | How an LLM agent interacts with MCP via Gemini + MCP Server   |
 
+---
 
 ## 🧪 How It Works
 
@@ -116,6 +124,8 @@ python main.py
 ```
 
 3. Watch the magic: Gemini automatically calls MCP tools like `calculate_average_score`.
+
+---
 
 ## 🤔 Want to go deeper?
 
