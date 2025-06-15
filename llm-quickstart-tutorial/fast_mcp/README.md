@@ -101,16 +101,16 @@ async with MCPServerStdio(params={"command": "python", "args": ["server.py"]}) a
 
 ## 🧪 How It Works
 
-**Step 1: Launch the MCP Server**
+**Step 1: Launch the MCP Server (Optional)**
 
 ```bash
-uv run python src/fast_mcp_tutorial/student_management_server.py
+uv run python llm-quickstart-tutorial/fast_mcp/student_management_server.py
 ```
 
 **Step 2: Start the Agent**
 
 ```bash
-python main.py
+uv run python llm-quickstart-tutorial/fast_mcp/main.py
 ```
 
 **Step 3: Watch the magic: Gemini automatically calls MCP tools like `calculate_average_score`.**

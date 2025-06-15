@@ -36,7 +36,7 @@ async def main():
     async with MCPServerStdio(
         params={
             "command": "uv",
-            "args": ["run", "python", "src/fast_mcp_tutorial/student_management_server.py"],
+            "args": ["run", "python", "llm-quickstart-tutorial/fast_mcp/student_management_server.py"],
         }
     ) as server:
 
