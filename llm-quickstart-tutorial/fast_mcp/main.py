@@ -36,7 +36,7 @@ async def main():
     async with MCPServerStdio(
         params={
             "command": "uv",
-            "args": ["run", "python", "src/fast_mcp_tutorial/student_management.py"],
+            "args": ["run", "python", "src/fast_mcp_tutorial/student_management_server.py"],
         }
     ) as server:
 
@@ -47,7 +47,7 @@ async def main():
             mcp_servers = [server]
             )
 
-        result = await Runner.run(agent, "dùng calculate_average_score mcp để tính [1, 20]", run_config=config)
+        result = await Runner.run(agent, "Calculate average of [1, 2, 3]", run_config=config)
 
         print(result.final_output)
         
