@@ -95,7 +95,7 @@ async with MCPServerStdio(params={"command": "python", "args": ["server.py"]}) a
 
 | File/Module             | Core Concept         | What It Demonstrates                                          |
 | ----------------------- | -------------------- | ------------------------------------------------------------- |
-| `student_management_server.py` | 🧠 Tools, Resources, ... | Core MCP tools (score calculation, analysis) and student data |
+| `student_management_server.py` | 🧠 Tools, Resources,... | Core MCP tools (score calculation, analysis) and student data |
 | `main.py`               | 🔁 Client Usage      | How an LLM agent interacts with MCP via Gemini + MCP Server   |
 
 
