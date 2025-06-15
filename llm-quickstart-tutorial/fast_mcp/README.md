@@ -118,4 +118,4 @@ uv run python llm-quickstart-tutorial/fast_mcp/main.py
 ## 🤔 Want to go deeper?
 
 Curious how it all works under the hood?
-> 🔍 Dive deeper with the [full official docs here](https://github.com/jlowin/fastmcp).
+> 🔍 Dive deeper with the [full official docs here](https://gofastmcp.com/getting-started/welcome).
